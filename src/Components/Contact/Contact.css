@@ -32,3 +32,34 @@ h5{
     margin-top: 0.7rem;
     display: inline-block;
 }
+/* form*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    resize: none;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    /* border: 1px  solid; */
+    color: var(--color-white);
+}
+
+
+@media screen and (max-width:1024px){
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container.contact__container{
+        width: var(--container-width-sm);
+        
+    }
+}
