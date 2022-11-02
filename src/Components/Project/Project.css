@@ -1,6 +1,6 @@
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
 .portfolio__items {
@@ -19,9 +19,14 @@
   overflow: hidden;
 }
 .portfolio__items h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0  2rem;
+  margin-bottom: 0;
 }
-
+.portfolio__items-content{
+  display:flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
 .portfolio__items-cta {
   display: flex;
   gap: 1rem;
@@ -37,8 +42,8 @@
 }
 /* media queries small screen */
 @media screen and (max-width: 600px) {
-  .project__container {
-    grid-template-columns: 1fr;
+  .portfolio__container {
+    grid-template-columns: 1fr ;
     gap: 1rem;
   }
 }

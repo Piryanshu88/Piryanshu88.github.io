@@ -10,7 +10,7 @@ export const Header = () => {
         <h5>Hello I'm</h5>
         <h1>Piryanshu Bisht</h1>
         <h5 className="text-light">
-            Full-Stack Developer
+            Full-Stack Web Developer
         </h5>
         <Resume/>
         <HeaderSocial/>
