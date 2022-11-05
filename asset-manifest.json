@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1faefdcd.css",
-    "main.js": "/static/js/main.945bc480.js",
+    "main.css": "/static/css/main.460af5e9.css",
+    "main.js": "/static/js/main.68cb89fb.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/project4.png": "/static/media/project4.9651e08ec679367a9a0f.png",
-    "static/media/project3.png": "/static/media/project3.1c299c0b565c7a14676b.png",
     "static/media/project2.png": "/static/media/project2.d9c53fa4c669d20f2c27.png",
+    "static/media/Zomato.png": "/static/media/Zomato.f4f59cff561002012c82.png",
     "static/media/Piryanshu_Bisht_Resume.pdf": "/static/media/Piryanshu_Bisht_Resume.9d35aac327bd4c288e72.pdf",
     "static/media/2022-10-26.png": "/static/media/2022-10-26.ddba31e41c960874b4f7.png",
     "static/media/Piryanshu1.png": "/static/media/Piryanshu1.d83d37df35380793ee10.png",
     "static/media/Piryanshu.jpg": "/static/media/Piryanshu.4b132fc064ac51a8f083.jpg",
     "index.html": "/index.html",
-    "main.1faefdcd.css.map": "/static/css/main.1faefdcd.css.map",
-    "main.945bc480.js.map": "/static/js/main.945bc480.js.map",
+    "main.460af5e9.css.map": "/static/css/main.460af5e9.css.map",
+    "main.68cb89fb.js.map": "/static/js/main.68cb89fb.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1faefdcd.css",
-    "static/js/main.945bc480.js"
+    "static/css/main.460af5e9.css",
+    "static/js/main.68cb89fb.js"
   ]
 }
