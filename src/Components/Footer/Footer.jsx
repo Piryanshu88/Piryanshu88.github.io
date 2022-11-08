@@ -4,7 +4,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className="last_change">
       <a href="#" className="footer__logo">
         Piryanshu
       </a>

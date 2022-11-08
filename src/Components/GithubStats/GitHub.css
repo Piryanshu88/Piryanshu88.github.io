@@ -2,9 +2,15 @@
     display: flex;
     justify-content: center;
 }
+.container{
+    margin-bottom: 50px;
+}
 .container section{
 margin: auto;
 margin-top: 79px;
+}
+footer{
+    background: transparent;
 }
 .git-status{
         width: 35%;
