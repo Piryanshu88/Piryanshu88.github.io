@@ -16,7 +16,7 @@ export const Header = () => {
         <HeaderSocial/>
 
         <div className="me">
-            <img src={ME} alt="" />
+            <img src={ME} alt="" height='300px' />
         </div>
 
         <a href="#footer" className="scroll__down">Scroll Down</a>
