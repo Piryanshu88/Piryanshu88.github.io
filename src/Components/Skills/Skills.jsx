@@ -10,7 +10,7 @@ import { SiRedux } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
-
+// import {SiRedux} from 'react-icons/si'
 export const Skills = () => {
   return (
     <section id="Skills">
@@ -67,6 +67,12 @@ export const Skills = () => {
               <div>
                 <BsBootstrap className="experience__details-icon"/>
                 <h4>Bootstrap</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+                <SiRedux className="experience__details-icon"/>
+                <h4>React-Redux</h4>
               </div>
             </article>
           </div>

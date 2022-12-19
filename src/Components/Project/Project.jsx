@@ -3,7 +3,7 @@ import React from "react";
 import Img1 from "../../assets/2022-10-26.png";
 import Img2 from "../../assets/project2.png";
 import Img3 from "../../assets/Zomato.png";
-import Img4 from "../../assets/project4.png";
+import Img4 from "../../assets/travilla.png";
 
 export const Project = () => {
   return (
@@ -78,19 +78,23 @@ export const Project = () => {
           </div>
           <h3>Zomato Clone</h3>
           <h5>
-            Zomato is an Indian multinational restaurant
-            aggregator and food delivery company founded by Deepinder Goyal and
-            Pankaj Chaddah in 2008. Zomato provides information, menus and
-            user-reviews of restaurants as well as food delivery options from
-            partner restaurants in select cities. As of 2019, the service is
-            available in 24 countries and in more than 10,000 cities.
+            Zomato is an Indian multinational restaurant aggregator and food
+            delivery company founded by Deepinder Goyal and Pankaj Chaddah in
+            2008. Zomato provides information, menus and user-reviews of
+            restaurants as well as food delivery options from partner
+            restaurants in select cities. As of 2019, the service is available
+            in 24 countries and in more than 10,000 cities.
           </h5>
           <div className="portfolio__items-content">
             <h4 style={{ color: `var(--color-primary)` }}>Tech Stack</h4>
             <span>: React, CSS3 and JavaScript</span>
           </div>
           <div className="portfolio__items-cta">
-            <a href="https://github.com/Piryanshu88/Zomato-React-Clone" className="btn" target="_blank">
+            <a
+              href="https://github.com/Piryanshu88/Zomato-React-Clone"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a
@@ -106,26 +110,31 @@ export const Project = () => {
           <div className="portfolio__items-image">
             <img src={Img4} alt="" />
           </div>
-          <h3>Youtube Clone</h3>
+          <h3>Tripvillas Clone</h3>
           <h5>
-            YouTube is an American online video sharing and social media
-            platform headquartered in San Bruno, California. It was launched on
-            February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It
-            is owned by Google, and is the second most visited website, after
-            Google Search. YouTube has more than 2.5 billion monthly users[7]
-            who collectively watch more than one billion hours of videos each
-            day.
+            Tripvillas is one of Asia's largest Holiday Home Rental Companies.
+            The company was founded in late 2009 by Roshan D'Silva when looking
+            for ways to generate additional income from Coffee Plantations owned
+            by his family in India. Inspired by Craigslist, Roshan set out to
+            create a simple website where owners of private homes could create a
+            simple profile for their property and then correspond with like
+            minded families who would be interested in staying in their homes as
+            an alternate to hotels.
           </h5>
           <div className="portfolio__items-content">
             <h4 style={{ color: `var(--color-primary)` }}>Tech Stack</h4>
-            <span>: HTML ,CSS and JavaScript</span>
+            <span>: React Js ,CSS3,Chakra UI and React-Redux </span>
           </div>
           <div className="portfolio__items-cta">
-            <a href="" className="btn" target="_blank">
+            <a
+              href="https://github.com/Sunilrath101/annoying-wing-980"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
             <a
-              href="https://eloquent-tapioca-27104f.netlify.app/"
+              href="https://travilla.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
