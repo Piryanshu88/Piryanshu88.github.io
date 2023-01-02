@@ -1,7 +1,8 @@
 import "./Footer.css";
 import { FaLinkedin } from "react-icons/fa";
 import React from "react";
-
+import { AiFillGithub } from "react-icons/ai";
+import { SiHackerrank } from "react-icons/si";
 export const Footer = () => {
   return (
     <footer id="footer" className="last_change">
@@ -32,6 +33,12 @@ export const Footer = () => {
           target="_blank"
         >
           <FaLinkedin />
+        </a>
+        <a href="https://github.com/Piryanshu88" target="_blank">
+          <AiFillGithub />
+        </a>
+        <a href="https://www.hackerrank.com/deepubisht2004" target="_blank">
+          <SiHackerrank />
         </a>
       </div>
     </footer>

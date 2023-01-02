@@ -1,9 +1,11 @@
 import React from "react";
 import "./About.css";
-import ME from "../../assets/Piryanshu.jpg";
+import ME from "../../assets/pirya.png";
 import { FaAward } from "react-icons/fa";
 import { VscSymbolProperty } from "react-icons/vsc";
 import { VscFolderLibrary } from "react-icons/vsc";
+
+//C:\Users\Piryanshu\Desktop\MY_Portfolio\my-portfolio\src\assets\pirya.png
 export const About = () => {
   return (
     <section id="about">
