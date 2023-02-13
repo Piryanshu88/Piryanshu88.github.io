@@ -7,7 +7,7 @@ const Stats = () => {
         <a href="https://github.com/Piryanshu88">
           <img
             align="center"
-            src="https://github-readme-streak-stats.herokuapp.com?user=Piryanshu88&hide_border=true&background=4db5ff&ring=000000&currStreakLabel=000000&stroke=1A1919&fire=2C2526"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=Piryanshu88&hide_border=true&background=4db5ff&ring=000000&currStreakLabel=000000&stroke=1A1919&fire=2C2526"
           />
         </a>
       </div>

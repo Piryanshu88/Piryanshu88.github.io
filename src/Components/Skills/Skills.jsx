@@ -10,6 +10,10 @@ import { SiRedux } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
+import { VscGithubInverted } from "react-icons/vsc";
+import { SiVisualstudiocode } from "react-icons/si";
+import { SiNetlify } from "react-icons/si";
+import { DiFirebase } from "react-icons/di";
 // import {SiRedux} from 'react-icons/si'
 export const Skills = () => {
   return (
@@ -23,55 +27,55 @@ export const Skills = () => {
           <div className="experience__content">
             <article className="experience__details">
               <div>
-                <ImHtmlFive2 className="experience__details-icon"/>
+                <ImHtmlFive2 className="experience__details-icon" />
                 <h4>HTML</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <DiCss3Full className="experience__details-icon"/>
+                <DiCss3Full className="experience__details-icon" />
                 <h4>CSS</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <TbBrandJavascript className="experience__details-icon"/>
+                <TbBrandJavascript className="experience__details-icon" />
                 <h4>JavaScript</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <FaReact className="experience__details-icon"/>
+                <FaReact className="experience__details-icon" />
                 <h4>React </h4>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <SiRedux className="experience__details-icon"/>
+                <SiRedux className="experience__details-icon" />
                 <h4>Redux</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <SiChakraui className="experience__details-icon"/>
+                <SiChakraui className="experience__details-icon" />
                 <h4>ChakraUI</h4>
               </div>
             </article>
 
             <article className="experience__details">
               <div>
-                <BsBootstrap className="experience__details-icon"/>
+                <BsBootstrap className="experience__details-icon" />
                 <h4>Bootstrap</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-                <SiRedux className="experience__details-icon"/>
+                <SiRedux className="experience__details-icon" />
                 <h4>React-Redux</h4>
               </div>
             </article>
@@ -79,24 +83,51 @@ export const Skills = () => {
         </div>
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Backend Development & Tools</h3>
           <div className="experience__content">
             <article className="experience__details">
               <div>
-                <FaNodeJs className="experience__details-icon"/>
+                <FaNodeJs className="experience__details-icon" />
                 <h4>Node Js</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-                <SiMongodb className="experience__details-icon"/>
+                <SiMongodb className="experience__details-icon" />
                 <h4>MongoDB</h4>
               </div>
             </article>
             <article className="experience__details">
               <div>
-                <SiExpress className="experience__details-icon"/>
+                <SiExpress className="experience__details-icon" />
                 <h4>Express Js</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+                <VscGithubInverted className="experience__details-icon" />
+                <h4>Git</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+                <SiVisualstudiocode className="experience__details-icon" />
+                <h4>Vs code</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+                <SiNetlify className="experience__details-icon" />
+                <h4>Netlify</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <div>
+                <DiFirebase
+                  className="experience__details-icon"
+                  fontSize={"26px"}
+                />
+                <h4>Firebase</h4>
               </div>
             </article>
           </div>
