@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3feaa1e.css",
-    "main.js": "/static/js/main.f4f7fd11.js",
+    "main.css": "/static/css/main.1e83abf5.css",
+    "main.js": "/static/js/main.7c65adbd.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/pirya.png": "/static/media/pirya.03258c24f25c9af2ea59.png",
     "static/media/logo_pir.gif": "/static/media/logo_pir.0e07d767eb83b506fde9.gif",
-    "static/media/project2.png": "/static/media/project2.d9c53fa4c669d20f2c27.png",
     "static/media/Zomato.png": "/static/media/Zomato.f4f59cff561002012c82.png",
     "static/media/travilla.png": "/static/media/travilla.359b59814c7847c12253.png",
     "static/media/Piryanshu_Bisht_Resume.pdf": "/static/media/Piryanshu_Bisht_Resume.3b1e0af24ba1b4077b65.pdf",
+    "static/media/dell.png": "/static/media/dell.4e64f2dfe9ad7999147e.png",
     "static/media/2022-10-26.png": "/static/media/2022-10-26.ddba31e41c960874b4f7.png",
     "static/media/pirya-removebg-preview.png": "/static/media/pirya-removebg-preview.48940c23701814218acf.png",
+    "static/media/5GOT.gif": "/static/media/5GOT.84a436b34cd15b02606c.gif",
     "index.html": "/index.html",
-    "main.e3feaa1e.css.map": "/static/css/main.e3feaa1e.css.map",
-    "main.f4f7fd11.js.map": "/static/js/main.f4f7fd11.js.map",
+    "main.1e83abf5.css.map": "/static/css/main.1e83abf5.css.map",
+    "main.7c65adbd.js.map": "/static/js/main.7c65adbd.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3feaa1e.css",
-    "static/js/main.f4f7fd11.js"
+    "static/css/main.1e83abf5.css",
+    "static/js/main.7c65adbd.js"
   ]
 }
