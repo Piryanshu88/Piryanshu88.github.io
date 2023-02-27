@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5009873.css",
-    "main.js": "/static/js/main.ce2c59f4.js",
+    "main.css": "/static/css/main.4a2f7b4d.css",
+    "main.js": "/static/js/main.da4970c4.js",
     "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
     "static/media/pirya.png": "/static/media/pirya.03258c24f25c9af2ea59.png",
     "static/media/working.gif": "/static/media/working.809c26da53dbeeb53fc3.gif",
+    "static/media/travilla.png": "/static/media/travilla.359b59814c7847c12253.png",
+    "static/media/dell.png": "/static/media/dell.736cfa0434cc2f30e344.png",
     "static/media/vscode.png": "/static/media/vscode.1c3761ffc481bd897cf6.png",
+    "static/media/bestbuy.png": "/static/media/bestbuy.ddba31e41c960874b4f7.png",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/chakra.png": "/static/media/chakra.e4cb472ccaabf22affba.png",
     "static/media/5GOT.gif": "/static/media/5GOT.84a436b34cd15b02606c.gif",
@@ -19,12 +22,12 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.f5009873.css.map": "/static/css/main.f5009873.css.map",
-    "main.ce2c59f4.js.map": "/static/js/main.ce2c59f4.js.map",
+    "main.4a2f7b4d.css.map": "/static/css/main.4a2f7b4d.css.map",
+    "main.da4970c4.js.map": "/static/js/main.da4970c4.js.map",
     "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5009873.css",
-    "static/js/main.ce2c59f4.js"
+    "static/css/main.4a2f7b4d.css",
+    "static/js/main.da4970c4.js"
   ]
 }
