@@ -22,18 +22,29 @@ export const Home = () => {
             fontSize={"4xl"}
             color="var(--color-primary)"
             fontWeight={"500"}
+            data-aos="fade-right"
           >
             Piryanshu Bisht
           </Text>
-          <Text fontSize={"3xl"} fontWeight={"500"}>
+          <Text fontSize={"3xl"} fontWeight={"500"} data-aos="fade-right">
             Full Stack Web Developer
           </Text>
-          <Text fontSize={"xl"} color="var(--color-light)" marginTop={"10px"}>
+          <Text
+            fontSize={"xl"}
+            color="var(--color-light)"
+            marginTop={"10px"}
+            data-aos="fade-right"
+          >
             A Full Stack Developer who loves building projects.I am equipped
             with a variety of technologies and tools to help me build the best
             possible product.
           </Text>
-          <Flex alignItems={"center"} marginTop="15px" gap={"20px"}>
+          <Flex
+            alignItems={"center"}
+            marginTop="15px"
+            gap={"20px"}
+            data-aos="fade-right"
+          >
             <Flex _hover={{ color: "var(--color-primary)" }}>
               <a
                 href="https://www.linkedin.com/in/piryanshu-bisht-ba1a22231/"
