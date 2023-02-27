@@ -31,6 +31,13 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background-image: url(./assets/bg-texture.png);
+  /* C:\Users\Piryanshu\Desktop\MY_Portfolio\my-portfolio\src\assets\bg-texture.png */
+}
+.App {
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  background-image: url(./assets/bg-texture.png);
 }
 
 ::-webkit-scrollbar {
@@ -106,13 +113,12 @@ img {
 
 /* //media queries */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
   section {
     margin-top: 6rem;
-    
   }
 }
 
@@ -123,4 +129,4 @@ img {
   section > h2 {
     margin-top: 2rem;
   }
-}
+} */

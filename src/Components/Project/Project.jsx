@@ -1,7 +1,7 @@
 import "./Project.css";
 import React from "react";
 import Img1 from "../../assets/2022-10-26.png";
-import Img2 from "../../assets/project2.png";
+import Img2 from "../../assets/dell.png";
 import Img3 from "../../assets/Zomato.png";
 import Img4 from "../../assets/travilla.png";
 
@@ -46,25 +46,28 @@ export const Project = () => {
           <div className="portfolio__items-image">
             <img src={Img2} alt="" />
           </div>
-          <h3>Bath and Body Works Clone </h3>
+          <h3>Dell Clone </h3>
           <h5>
-            Best Buy Co. Inc. is an American multinational consumer electronics
-            retailer
+            Dell's products include personal computers, servers, smartphones,
+            televisions, computer software, computer security and network
+            security, as well as information security services.
           </h5>
           <div className="portfolio__items-content">
             <h4 style={{ color: `var(--color-primary)` }}>Tech Stack</h4>
-            <h4>: HTML ,JavaScript ,React and Chakra UI</h4>
+            <h4>
+              : HTML ,JavaScript ,React ,Redux ,Mongodb ,Express and Chakra UI
+            </h4>
           </div>
           <div className="portfolio__items-cta">
             <a
-              href="https://github.com/Piryanshu88/Bath_and_Body_Works_Clone/tree/main/bath_body_works"
+              href="https://github.com/Piryanshu88/LaptopWala"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://startling-pegasus-d1ab05.netlify.app/#"
+              href="https://laptopwala.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
