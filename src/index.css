@@ -44,12 +44,7 @@ body {
   display: none;
 }
 
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
-}
-
-h1,
+/* h1,
 h2,
 h3,
 h4 {
@@ -105,12 +100,7 @@ a:hover {
   color: var(--color-bg);
 }
 
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
-
+*/
 /* //media queries */
 
 /* @media screen and (max-width: 1024px) {

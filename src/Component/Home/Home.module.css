@@ -1,0 +1,38 @@
+.home_box {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 80px;
+  gap: 15px;
+}
+.home_box > div {
+  width: 46%;
+}
+.home_box_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home_box_img {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .home_box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home_box {
+    flex-direction: column-reverse;
+    width: 95%;
+  }
+  .home_box > div {
+    width: 100%;
+  }
+  .home_box_img > img {
+    width: 100%;
+  }
+}
