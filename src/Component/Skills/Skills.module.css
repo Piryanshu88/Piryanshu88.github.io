@@ -15,6 +15,7 @@
 }
 .skills_box1 > div {
   border: 2px solid var(--color-primary);
+  box-shadow: 0 10px 9px -6px var(--color-primary);
   border-radius: 10px;
   padding: 10px;
   text-align: center;
