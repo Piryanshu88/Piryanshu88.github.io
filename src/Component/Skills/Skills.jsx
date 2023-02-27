@@ -31,7 +31,7 @@ export const Skills = () => {
         textDecoration={"underline"}
         data-aos="fade-up"
       >
-        Skills
+        #SKILLS
       </Text>
       {/* frontend skills  */}
       <Text

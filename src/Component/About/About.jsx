@@ -17,7 +17,7 @@ export const Aboute = () => {
         textDecoration={"underline"}
         data-aos="fade-up"
       >
-        About me{" "}
+        #ABOUT ME
       </Text>
       <div className={styles.about_box1}>
         <div className={styles.about_box_img} data-aos="fade-up">

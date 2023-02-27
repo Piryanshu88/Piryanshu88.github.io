@@ -7,11 +7,15 @@
 .projects_box1 {
   margin-top: 50px;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .projects {
   display: flex;
   justify-content: center;
   gap: 20px;
+  align-items: center;
   padding: 20px;
   box-shadow: 0.5rem 0.5rem var(--color-primary), -0.5rem -0.5rem;
 }
