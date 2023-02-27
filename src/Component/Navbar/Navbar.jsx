@@ -21,10 +21,9 @@ export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
   return (
-    <div>
+    <div className={styles.navbar_box}>
       <Flex
         height="60px"
-        border={"2px solid yellow"}
         alignItems="center"
         paddingLeft={"20px"}
         paddingRight={"20px"}
