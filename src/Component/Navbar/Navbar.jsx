@@ -41,16 +41,18 @@ export const Navbar = () => {
           >
             Home
           </Text>
-          <Text
-            fontSize={"xl"}
-            cursor="pointer"
-            _hover={{
-              color: "var(--color-primary)",
-              borderBottom: "2px solid var(--color-primary)",
-            }}
-          >
-            About
-          </Text>
+          <a href="#about">
+            <Text
+              fontSize={"xl"}
+              cursor="pointer"
+              _hover={{
+                color: "var(--color-primary)",
+                borderBottom: "2px solid var(--color-primary)",
+              }}
+            >
+              About
+            </Text>
+          </a>
           <Text
             fontSize={"xl"}
             cursor="pointer"

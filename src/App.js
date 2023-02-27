@@ -12,6 +12,7 @@ import { Navbar } from "./Component/Navbar/Navbar";
 import { Home } from "./Component/Home/Home";
 import { Loading } from "./Component/LoadingPage/Loading";
 import useReady from "./Component/LoadingPage/useReady";
+import { Aboute } from "./Component/About/About";
 function App() {
   const { ready } = useReady(2000);
   return (
@@ -26,6 +27,7 @@ function App() {
           {" "}
           <Navbar />
           <Home />
+          <Aboute />
         </div>
       )}
       {/* <Header />
