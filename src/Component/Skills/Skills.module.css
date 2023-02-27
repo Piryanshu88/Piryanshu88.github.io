@@ -1,0 +1,37 @@
+.skills_box {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 60px;
+}
+.skills_box1 {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(3, 25%);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.skills_box1 > div {
+  border: 2px solid var(--color-primary);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.skills_box1 > div > img {
+  width: 60%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 640px) {
+  .skills_box1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills_box {
+    width: 90%;
+  }
+}

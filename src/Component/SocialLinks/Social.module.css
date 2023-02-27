@@ -1,0 +1,7 @@
+.social_links_box {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 40%;
+  left: 0px;
+}

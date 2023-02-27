@@ -13,7 +13,7 @@ export const Home = () => {
   }, []);
   return (
     <Box>
-      <div className={styles.home_box}>
+      <div className={styles.home_box} id="home">
         <div className={styles.home_box_details} data-aos="fade-right">
           <Text fontSize={"3xl"} fontWeight={"500"}>
             I'm

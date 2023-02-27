@@ -9,6 +9,7 @@
   width: 100%;
   top: 0px;
   background: var(--color-bg);
+
   background-image: url(../../assets/bg-texture.png);
   z-index: 20;
 }

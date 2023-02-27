@@ -37,7 +37,7 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
-
+  position: relative;
   background-image: url(./assets/bg-texture.png);
 }
 

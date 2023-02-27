@@ -31,16 +31,18 @@ export const Navbar = () => {
       >
         <Text fontSize={"xl"}>Piryanshu</Text>
         <div className={styles.nav_items}>
-          <Text
-            fontSize={"xl"}
-            cursor="pointer"
-            _hover={{
-              color: "var(--color-primary)",
-              borderBottom: "2px solid var(--color-primary)",
-            }}
-          >
-            Home
-          </Text>
+          <a href="#home">
+            <Text
+              fontSize={"xl"}
+              cursor="pointer"
+              _hover={{
+                color: "var(--color-primary)",
+                borderBottom: "2px solid var(--color-primary)",
+              }}
+            >
+              Home
+            </Text>
+          </a>
           <a href="#about">
             <Text
               fontSize={"xl"}
@@ -53,16 +55,18 @@ export const Navbar = () => {
               About
             </Text>
           </a>
-          <Text
-            fontSize={"xl"}
-            cursor="pointer"
-            _hover={{
-              color: "var(--color-primary)",
-              borderBottom: "2px solid var(--color-primary)",
-            }}
-          >
-            Skills
-          </Text>
+          <a href="#skills">
+            <Text
+              fontSize={"xl"}
+              cursor="pointer"
+              _hover={{
+                color: "var(--color-primary)",
+                borderBottom: "2px solid var(--color-primary)",
+              }}
+            >
+              Skills
+            </Text>
+          </a>
           <Text
             fontSize={"xl"}
             cursor="pointer"
