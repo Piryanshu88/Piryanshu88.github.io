@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e83abf5.css",
-    "main.js": "/static/js/main.7c65adbd.js",
+    "main.css": "/static/css/main.ef79b6a4.css",
+    "main.js": "/static/js/main.351bb4dc.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/pirya.png": "/static/media/pirya.03258c24f25c9af2ea59.png",
     "static/media/logo_pir.gif": "/static/media/logo_pir.0e07d767eb83b506fde9.gif",
@@ -13,12 +13,12 @@
     "static/media/pirya-removebg-preview.png": "/static/media/pirya-removebg-preview.48940c23701814218acf.png",
     "static/media/5GOT.gif": "/static/media/5GOT.84a436b34cd15b02606c.gif",
     "index.html": "/index.html",
-    "main.1e83abf5.css.map": "/static/css/main.1e83abf5.css.map",
-    "main.7c65adbd.js.map": "/static/js/main.7c65adbd.js.map",
+    "main.ef79b6a4.css.map": "/static/css/main.ef79b6a4.css.map",
+    "main.351bb4dc.js.map": "/static/js/main.351bb4dc.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e83abf5.css",
-    "static/js/main.7c65adbd.js"
+    "static/css/main.ef79b6a4.css",
+    "static/js/main.351bb4dc.js"
   ]
 }
