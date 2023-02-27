@@ -4,9 +4,18 @@
   height: 100%;
   align-items: center;
 }
+.mobile_nav {
+  display: none;
+}
 
 @media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+  .nav_items {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
 }
