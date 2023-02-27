@@ -15,6 +15,7 @@ import useReady from "./Component/LoadingPage/useReady";
 import { Aboute } from "./Component/About/About";
 import { SocialLinks } from "./Component/SocialLinks/SocialLinks";
 import { Skills } from "./Component/Skills/Skills";
+import { Projects } from "./Component/Projects/Projects";
 function App() {
   const { ready } = useReady(2000);
   return (
@@ -31,6 +32,7 @@ function App() {
           <Home />
           <Aboute />
           <Skills />
+          <Projects />
         </div>
       )}
       {/* <Header />

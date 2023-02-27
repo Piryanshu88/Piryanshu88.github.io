@@ -34,53 +34,58 @@ export const Skills = () => {
         Skills
       </Text>
       {/* frontend skills  */}
-      <Text textAlign={"center"} marginTop="20px" fontSize={"2xl"}>
+      <Text
+        textAlign={"center"}
+        marginTop="20px"
+        fontSize={"2xl"}
+        data-aos="fade-right"
+      >
         Frontend
       </Text>
       <div className={styles.skills_box1}>
-        <div>
+        <div data-aos="fade-up">
           <Image src={html} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             HTML
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={css} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             CSS
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={js} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             JS
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={react} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             React
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={redux} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Redux
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={typescript} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             TypeScript
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={chakra} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             ChakraUI
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={tailwind} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Tailwind CSS
@@ -88,23 +93,28 @@ export const Skills = () => {
         </div>
       </div>
       {/* backend skills  */}
-      <Text textAlign={"center"} marginTop="40px" fontSize={"2xl"}>
+      <Text
+        textAlign={"center"}
+        marginTop="40px"
+        fontSize={"2xl"}
+        data-aos="fade-right"
+      >
         Backend
       </Text>
       <div className={styles.skills_box1}>
-        <div>
+        <div data-aos="fade-up">
           <Image src={express} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Express
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={node} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Node js
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={mongodb} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Mongodb
@@ -113,29 +123,34 @@ export const Skills = () => {
       </div>
 
       {/* others */}
-      <Text textAlign={"center"} marginTop="40px" fontSize={"2xl"}>
+      <Text
+        textAlign={"center"}
+        marginTop="40px"
+        fontSize={"2xl"}
+        data-aos="fade-right"
+      >
         Others
       </Text>
       <div className={styles.skills_box1}>
-        <div>
+        <div data-aos="fade-up">
           <Image src={vs} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Vs Code
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={git} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             GitHub
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={postman} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Postman
           </Text>
         </div>
-        <div>
+        <div data-aos="fade-up">
           <Image src={npm} />
           <Text fontSize={"l"} fontWeight="500" marginTop={"10px"}>
             Npm
