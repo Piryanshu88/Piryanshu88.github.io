@@ -113,7 +113,6 @@ export const Contact = () => {
               marginBottom={"25px"}
             />
             <Button
-              data-aos="fade-left"
               colorScheme={"telegram"}
               background="var(--color-primary)"
               type="submit"
