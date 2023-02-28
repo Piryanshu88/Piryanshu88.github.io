@@ -65,12 +65,12 @@ export const Home = () => {
                 <AiFillGithub fontSize={"45px"} cursor="pointer" />
               </a>
             </Flex>
-            <a
-              onClick={handledrive}
-              href="./fw20_0834-Piryanshu-Bisht-Resume.pdf"
-              download
-            >
-              <Button colorScheme={"blue"} background="var(--color-primary)">
+            <a href="./fw20_0834-Piryanshu-Bisht-Resume.pdf" download>
+              <Button
+                colorScheme={"blue"}
+                background="var(--color-primary)"
+                onClick={handledrive}
+              >
                 See my Resume
               </Button>
             </a>
