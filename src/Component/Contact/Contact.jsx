@@ -1,5 +1,5 @@
 import styles from "./Contact.module.css";
-
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import React from "react";
 import {
   Button,
@@ -14,6 +14,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { SiHackerrank } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import { useRef } from "react";
@@ -48,6 +49,29 @@ export const Contact = () => {
       </Text>
       <div className={styles.contact_box1}>
         <div className={styles.contact_box_details}>
+          <Flex alignItems={"center"} gap="16px" justifyContent={"center"}>
+            <Flex _hover={{ color: "var(--color-primary)" }} data-aos="fade-up">
+              <a
+                href="https://www.linkedin.com/in/piryanshu-bisht-ba1a22231/"
+                target="_blank"
+              >
+                <AiFillLinkedin fontSize={"45px"} cursor="pointer" />
+              </a>
+            </Flex>
+            <Flex _hover={{ color: "var(--color-primary)" }} data-aos="fade-up">
+              <a href="https://github.com/Piryanshu88" target="_blank">
+                <AiFillGithub fontSize={"45px"} cursor="pointer" />
+              </a>
+            </Flex>
+            <Flex _hover={{ color: "var(--color-primary)" }} data-aos="fade-up">
+              <a
+                href="https://www.hackerrank.com/deepubisht2004"
+                target="_blank"
+              >
+                <SiHackerrank fontSize={"38px"} cursor="pointer" />
+              </a>
+            </Flex>
+          </Flex>
           <Flex
             alignItems={"center"}
             className={styles.contact_box_details_items}
