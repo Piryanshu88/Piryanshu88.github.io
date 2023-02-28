@@ -18,7 +18,18 @@
 .home_box_img {
   border-radius: 10px;
 }
-
+.scroll__down {
+  position: fixed;
+  right: 2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}
+.scroll__down:hover {
+  color: var(--color-primary-variant);
+}
 
 @media screen and (max-width: 1024px) {
   .home_box {
@@ -29,8 +40,9 @@
 @media screen and (max-width: 640px) {
   .home_box {
     flex-direction: column-reverse;
-    width: 95%;
+    width: 90%;
   }
+
   .home_box > div {
     width: 100%;
   }

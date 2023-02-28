@@ -36,8 +36,9 @@ body {
 .App {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
+  width: 100%;
   color: var(--color-white);
-  position: relative;
+  /* position: relative; */
   background-image: url(./assets/bg-texture.png);
 }
 

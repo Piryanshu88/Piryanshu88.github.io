@@ -77,6 +77,9 @@ export const Home = () => {
             margin={"auto"}
           />
         </div>
+        <a href="#contact" className={styles.scroll__down}>
+          Scroll Down
+        </a>
       </div>
     </Box>
   );

@@ -44,7 +44,7 @@
 @media screen and (max-width: 640px) {
   .about_box1 {
     flex-direction: column;
-    width: 95%;
+    width: 90%;
   }
   .about_box1 > div {
     width: 100%;
