@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       {" "}
-      {!true ? (
+      {!ready ? (
         <>
           <Loading />
         </>
