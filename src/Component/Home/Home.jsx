@@ -11,6 +11,12 @@ export const Home = () => {
   useEffect(() => {
     AOS.init({ delay: 100 });
   }, []);
+  const handledrive = () => {
+    window.open(
+      "https://drive.google.com/file/d/1dASCAtmIDuPCoBVy5SE-8kPYD5X9MLBy/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
     <Box>
       <div className={styles.home_box} id="home">
@@ -59,8 +65,9 @@ export const Home = () => {
               </a>
             </Flex>
             <a
-              href="https://drive.google.com/file/d/1dASCAtmIDuPCoBVy5SE-8kPYD5X9MLBy/view?usp=sharing"
-              target="_blank"
+              onClick={handledrive}
+              href="./Piryanshu_Bisht_Resume.pdf"
+              download
             >
               <Button colorScheme={"blue"} background="var(--color-primary)">
                 See my Resume

@@ -27,6 +27,13 @@ export const Navbar = () => {
       onClose();
     }, 1000);
   };
+  const handledrive = () => {
+    onClose();
+    window.open(
+      "https://drive.google.com/file/d/1dASCAtmIDuPCoBVy5SE-8kPYD5X9MLBy/view?usp=sharing",
+      "_blank"
+    );
+  };
   return (
     <div className={styles.navbar_box}>
       <div className={styles.navbar_box_keys}>
@@ -92,22 +99,22 @@ export const Navbar = () => {
               Contact
             </Text>
           </a>
-          <a href="./Piryanshu_Bisht_Resume.pdf" download={true}>
-            <a
-              href="https://drive.google.com/file/d/1dASCAtmIDuPCoBVy5SE-8kPYD5X9MLBy/view?usp=sharing"
-              target="_blank"
+          <a
+            href="./Piryanshu_Bisht_Resume.pdf"
+            download
+            target="_blank"
+            onClick={handledrive}
+          >
+            <Text
+              fontSize={"xl"}
+              cursor="pointer"
+              _hover={{
+                color: "var(--color-primary)",
+                borderBottom: "2px solid var(--color-primary)",
+              }}
             >
-              <Text
-                fontSize={"xl"}
-                cursor="pointer"
-                _hover={{
-                  color: "var(--color-primary)",
-                  borderBottom: "2px solid var(--color-primary)",
-                }}
-              >
-                Resume
-              </Text>
-            </a>
+              Resume
+            </Text>
           </a>
         </div>
         {/* Navbar for mobile screens */}
@@ -193,9 +200,10 @@ export const Navbar = () => {
                     </Text>
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/1dASCAtmIDuPCoBVy5SE-8kPYD5X9MLBy/view?usp=sharing"
                     target="_blank"
-                    onClick={onClose}
+                    onClick={handledrive}
+                    download
+                    href="./Piryanshu_Bisht_Resume.pdf"
                   >
                     <Text
                       fontSize={"xl"}
