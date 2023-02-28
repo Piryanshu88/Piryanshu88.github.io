@@ -18,6 +18,7 @@ import { Skills } from "./Component/Skills/Skills";
 import { Projects } from "./Component/Projects/Projects";
 import { Contact } from "./Component/Contact/Contact";
 import { Github } from "./Component/GithubStats/Github";
+import { Footer } from "./Footer/Footer";
 function App() {
   const { ready } = useReady(2000);
   return (
@@ -37,6 +38,7 @@ function App() {
           <Github />
           <Projects />
           <Contact />
+          <Footer />
         </div>
       )}
     </div>
