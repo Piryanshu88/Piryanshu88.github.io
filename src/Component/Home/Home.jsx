@@ -6,6 +6,7 @@ import img from "../../assets/pirya.png";
 import styles from "./Home.module.css";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 //C:\Users\Piryanshu\Desktop\MY_Portfolio\my-portfolio\src\assets
+//
 //C:\Users\Piryanshu\Desktop\MY_Portfolio\my-portfolio\src\assets\pirya.png
 export const Home = () => {
   useEffect(() => {
@@ -66,7 +67,7 @@ export const Home = () => {
             </Flex>
             <a
               onClick={handledrive}
-              href="./Piryanshu_Bisht_Resume.pdf"
+              href="./fw20_0834-Piryanshu-Bisht-Resume.pdf"
               download
             >
               <Button colorScheme={"blue"} background="var(--color-primary)">
