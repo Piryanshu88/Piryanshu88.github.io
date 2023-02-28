@@ -17,6 +17,7 @@ import { SocialLinks } from "./Component/SocialLinks/SocialLinks";
 import { Skills } from "./Component/Skills/Skills";
 import { Projects } from "./Component/Projects/Projects";
 import { Contact } from "./Component/Contact/Contact";
+import { Github } from "./Component/GithubStats/Github";
 function App() {
   const { ready } = useReady(2000);
   return (
@@ -33,6 +34,7 @@ function App() {
           <Home />
           <Aboute />
           <Skills />
+          <Github />
           <Projects />
           <Contact />
         </div>

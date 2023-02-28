@@ -1,0 +1,24 @@
+.github_stats_box {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 60px;
+}
+
+.github_stats_box1 {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media all and (min-width: 640px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 324px) and (max-width: 640px) {
+  .github_stats_box {
+    width: 90%;
+    margin: auto;
+  }
+}

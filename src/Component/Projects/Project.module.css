@@ -24,7 +24,7 @@
   width: 40%;
 }
 
-@media all and (min-width: 324px) and (max-width: 1024px) {
+@media all and (min-width: 640px) and (max-width: 1024px) {
   .projects {
     flex-direction: column-reverse;
   }
@@ -41,6 +41,6 @@
     width: 100%;
   }
   .projects_box {
-    width: 100%;
+    width: 90%;
   }
 }

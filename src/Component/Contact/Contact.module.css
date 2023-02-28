@@ -5,6 +5,7 @@
   height: max-content;
   padding-top: 60px;
   padding-bottom: 20px;
+  height: fit-content;
 }
 .contact_box1 {
   display: flex;
@@ -36,6 +37,9 @@
 @media all and (min-width: 324px) and (max-width: 640px) {
   .contact_box1 {
     flex-direction: column;
+  }
+  .contact_box {
+    width: 90%;
   }
   .contact_box1 > div {
     width: 100%;

@@ -5,7 +5,7 @@
   align-items: center;
 }
 .navbar_box {
-  position: sticky;
+  position: fixed;
   width: 100%;
   right: 0;
   left: 0;
@@ -31,16 +31,16 @@
   display: none;
 }
 
-@media all and (min-width: 640px) and (max-width: 824px) {
+@media all and (min-width: 775px) and (max-width: 824px) {
   .navbar_box_keys > img {
-    display: none;
+    width: 30%;
   }
   .nav_items {
     justify-content: center;
   }
 }
 
-@media all and (min-width: 324px) and (max-width: 640px) {
+@media all and (min-width: 324px) and (max-width: 775px) {
   .nav_items {
     display: none;
   }
