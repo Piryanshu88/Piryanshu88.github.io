@@ -79,7 +79,7 @@ export const Home = () => {
         <div className={styles.home_box_img} data-aos="fade-left">
           <Image
             src={img}
-            width={"70%"}
+            width={"80%"}
             borderRadius="40px"
             padding="15px"
             margin={"auto"}

@@ -12,6 +12,7 @@
 }
 .home_box_details {
   display: flex;
+  margin-top: 70px;
   flex-direction: column;
   justify-content: center;
 }
