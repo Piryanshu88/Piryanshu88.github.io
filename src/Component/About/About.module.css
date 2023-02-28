@@ -18,9 +18,10 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (min-width: 324px) and (max-width: 1024px) {
   .about_box {
-    width: 90%;
+    width: 100%;
+    padding-left: 20px;
   }
   .about_box1 > div {
     width: 49%;
@@ -41,7 +42,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media all and (min-width: 324px) and (max-width: 640px) {
   .about_box1 {
     flex-direction: column;
     width: 90%;

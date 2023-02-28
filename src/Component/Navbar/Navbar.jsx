@@ -14,9 +14,11 @@ import {
   IconButton,
   Stack,
   VStack,
+  Image,
 } from "@chakra-ui/react";
 import React from "react";
 import styles from "./Navbar.module.css";
+import logo from "../../assets/logo.png";
 export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
@@ -28,7 +30,7 @@ export const Navbar = () => {
   return (
     <div className={styles.navbar_box}>
       <div className={styles.navbar_box_keys}>
-        <Text fontSize={"xl"}>Piryanshu</Text>
+        <Image src={logo} />
         <div className={styles.nav_items}>
           <a href="#home">
             <Text
@@ -126,7 +128,7 @@ export const Navbar = () => {
             size="xs"
           >
             {/* <DrawerOverlay /> */}
-            <DrawerContent>
+            <DrawerContent background={"var(--color-primary)"}>
               <DrawerCloseButton />
               <DrawerBody>
                 <VStack lineHeight={"2rem"} marginTop="50px" width={"100%"}>
@@ -135,8 +137,8 @@ export const Navbar = () => {
                       fontSize={"xl"}
                       cursor="pointer"
                       _hover={{
-                        color: "var(--color-primary)",
-                        borderBottom: "2px solid var(--color-primary)",
+                        color: "var(--color-light)",
+                        borderBottom: "2px solid var(--color-light)",
                       }}
                     >
                       Home
@@ -147,8 +149,8 @@ export const Navbar = () => {
                       fontSize={"xl"}
                       cursor="pointer"
                       _hover={{
-                        color: "var(--color-primary)",
-                        borderBottom: "2px solid var(--color-primary)",
+                        color: "var(--color-light)",
+                        borderBottom: "2px solid  var(--color-light)",
                       }}
                     >
                       About
@@ -159,8 +161,8 @@ export const Navbar = () => {
                       fontSize={"xl"}
                       cursor="pointer"
                       _hover={{
-                        color: "var(--color-primary)",
-                        borderBottom: "2px solid var(--color-primary)",
+                        color: "var(--color-light)",
+                        borderBottom: "2px solid  var(--color-light)",
                       }}
                     >
                       Skills
@@ -171,8 +173,8 @@ export const Navbar = () => {
                       fontSize={"xl"}
                       cursor="pointer"
                       _hover={{
-                        color: "var(--color-primary)",
-                        borderBottom: "2px solid var(--color-primary)",
+                        color: "var(--color-light)",
+                        borderBottom: "2px solid  var(--color-light)",
                       }}
                     >
                       Projects
@@ -183,8 +185,8 @@ export const Navbar = () => {
                       fontSize={"xl"}
                       cursor="pointer"
                       _hover={{
-                        color: "var(--color-primary)",
-                        borderBottom: "2px solid var(--color-primary)",
+                        color: "var(--color-light)",
+                        borderBottom: "2px solid  var(--color-light)",
                       }}
                     >
                       Contact
@@ -199,8 +201,8 @@ export const Navbar = () => {
                       fontSize={"xl"}
                       cursor="pointer"
                       _hover={{
-                        color: "var(--color-primary)",
-                        borderBottom: "2px solid var(--color-primary)",
+                        color: "var(--color-light)",
+                        borderBottom: "2px solid  var(--color-light)",
                       }}
                     >
                       Resume

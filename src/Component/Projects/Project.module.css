@@ -2,6 +2,7 @@
   width: 75%;
   margin: auto;
   margin-top: 100px;
+  /* height: 100vh; */
   padding-top: 60px;
 }
 .projects_box1 {
@@ -23,7 +24,7 @@
   width: 40%;
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (min-width: 324px) and (max-width: 1024px) {
   .projects {
     flex-direction: column-reverse;
   }
@@ -32,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media all and (min-width: 324px) and (max-width: 640px) {
   .projects {
     flex-direction: column-reverse;
   }

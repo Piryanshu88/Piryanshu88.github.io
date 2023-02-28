@@ -20,7 +20,7 @@ import { Contact } from "./Component/Contact/Contact";
 function App() {
   const { ready } = useReady(2000);
   return (
-    <div className="App">
+    <div>
       {" "}
       {!ready ? (
         <>
