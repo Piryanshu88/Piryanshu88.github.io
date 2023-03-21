@@ -65,7 +65,7 @@ export const Home = () => {
                 <AiFillGithub fontSize={"45px"} cursor="pointer" />
               </a>
             </Flex>
-            <a href="./fw20_0834-Piryanshu-Bisht-Resume.pdf" download>
+            <a href="./Piryanshu-Bisht-Resume.pdf" download>
               <Button
                 colorScheme={"blue"}
                 background="var(--color-primary)"

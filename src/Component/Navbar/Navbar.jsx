@@ -100,7 +100,7 @@ export const Navbar = () => {
             </Text>
           </a>
           <a
-            href="./fw20_0834-Piryanshu-Bisht-Resume.pdf"
+            href="./Piryanshu-Bisht-Resume.pdf"
             download
             target="_blank"
             onClick={handledrive}
@@ -203,7 +203,7 @@ export const Navbar = () => {
                     target="_blank"
                     onClick={handledrive}
                     download
-                    href="./fw20_0834-Piryanshu-Bisht-Resume.pdf"
+                    href="./Piryanshu-Bisht-Resume.pdf"
                   >
                     <Text
                       fontSize={"xl"}
