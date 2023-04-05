@@ -15,6 +15,7 @@ import js from "../../assets/javascript.png";
 import dell from "../../assets/dell.png";
 import best from "../../assets/bestbuy.png";
 import flp from "../../assets/flp.png";
+import hm from "../../assets/hm.png";
 export const Projects = () => {
   useEffect(() => {
     AOS.init({ delay: 50 });
@@ -31,6 +32,70 @@ export const Projects = () => {
         #PROJECTS
       </Text>
       <div className={styles.projects_box1}>
+        {/* hm  */}
+        <div className={styles.projects} data-aos="fade-up">
+          <div>
+            <Text
+              fontSize={"2xl"}
+              fontWeight="500"
+              color={"var(--color-primary)"}
+              marginBottom="17px"
+              data-aos="fade-right"
+            >
+              HM Clone
+            </Text>
+            <Text
+              fontSize={"xl"}
+              color=" var(--color-light)"
+              data-aos="fade-right"
+            >
+              H & M Hennes & Mauritz AB or H&M Group (abbreviated H&M) is a
+              multinational clothing company based in Sweden that focuses on
+              fast-fashion clothing for men, women, teenagers, and children
+            </Text>
+            <Flex
+              height={"40px"}
+              gap="10px"
+              marginTop={"14px"}
+              marginBottom={"14px"}
+              data-aos="fade-right"
+            >
+              <Image src={html} alt="html" />
+              <Image src={mongodb} alt="mongodb" />
+              <Image src={react} alt="react" />
+              <Image src={express} alt="express" />
+              <Image src={chakra} alt="chakra-ui" />
+              <Image src={js} alt="js" />
+            </Flex>
+            <Flex gap={"20px"} data-aos="fade-right">
+              <a
+                href="https://github.com/Piryanshu88/ApniDukan"
+                target={"_blank"}
+              >
+                <Button
+                  background={"var(--color-primary)"}
+                  colorScheme={"twitter"}
+                >
+                  Github
+                </Button>
+              </a>
+              <a
+                href="https://hennes-mauritz-clone.netlify.app/"
+                target={"_blank"}
+              >
+                <Button colorScheme={"twitter"}>Live</Button>
+              </a>
+            </Flex>
+          </div>
+          <div>
+            <Image
+              data-aos="fade-left"
+              src={hm}
+              _hover={{ transform: "scale(1.05, 1.05)" }}
+              transition="var(--transition)"
+            />
+          </div>
+        </div>
         {/* travila */}
         <div className={styles.projects} data-aos="fade-up">
           <div>
