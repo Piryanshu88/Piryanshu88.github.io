@@ -24,6 +24,7 @@ export const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log(form.current);
 
     emailjs.sendForm(
       "service_yjljs0o",
@@ -31,6 +32,7 @@ export const Contact = () => {
       form.current,
       "PI6eAkKz5d7QISfJB"
     );
+
     e.target.reset();
   };
   useEffect(() => {
